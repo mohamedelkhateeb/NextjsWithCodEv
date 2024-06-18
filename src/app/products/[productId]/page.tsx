@@ -4,6 +4,6 @@ interface props {
   };
 }
 
-export default function ({ params }: props) {
+export default function Product({ params }: props) {
   return <div>product details {params.productId}</div>;
 }
